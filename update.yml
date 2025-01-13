@@ -7,5 +7,3 @@
 
     - name: Upgrade all packages on hosts
       apt: upgrade=dist force_apt_get=yes
-- name: Send Gotify Message via Shell`
-  ansible.builtin.shell: curl "http://192.168.0.119/message?token=ABXmP_2pyD6iQ6O" -F "title=Ansible-Semaphore" -F "message=System Update Done" -F "priority=5"
