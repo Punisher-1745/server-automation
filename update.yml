@@ -1,5 +1,5 @@
 ---
-- hosts: homelab_lxc
+- hosts: home-servers
   become: true
   become_user: root
   tasks:
